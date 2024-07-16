@@ -1,0 +1,26 @@
+<html>
+    <head>
+    </head>
+    <body>
+        <p id='demo'></p>
+        <script>
+        const fruits=new Map();
+        fruits.set("apple",300);
+        fruits.set("mango",200);
+        fruits.set("orange",500);
+        let k=fruits.entries();
+        while(true)
+{
+            let r=k.next();
+            alert(r.value);
+	console.log(r.value);
+        }
+        document.getElementById("demo").innerHTML=fruits.keys();
+        </script>
+        </body>
+        </html>
+
+
+
+
+					
